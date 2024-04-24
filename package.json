@@ -2,8 +2,8 @@
   "name": "std6-crm",
   "version": "1.0.0",
   "description": "A toy API project demonstrating how to dockerized the API development.",
-  "type": "module",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon ./index.js -exec babel-node"
   },
