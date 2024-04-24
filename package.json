@@ -1,25 +1,18 @@
 {
-  "name": "thp-containerized-crm",
+  "name": "std6-crm",
   "version": "1.0.0",
   "description": "A toy API project demonstrating how to dockerized the API development.",
   "main": "index.js",
-   "type": "module",
   "scripts": {
     "start": "nodemon ./index.js -exec babel-node"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TanathepR/std6-crm.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TanathepR/std6-crm.git/issues"
-  },
-  "homepage": "https://github.com/TanathepR/std6-crm.git#readme",
+  "homepage": "https://github.com/TanathepR/std6-crm#readme",
   "dependencies": {
+    "babel-node": "^0.0.1-security",
     "express": "^4.19.2",
-    "mongoose": "^8.3.1"
+    "mongooses": "^1.0.0"
   }
 }
