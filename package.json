@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "A toy API project demonstrating how to dockerized the API development.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon ./index.js -exec babel-node"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/TanathepR/std6-crm#readme",
   "dependencies": {
     "babel-node": "^0.0.1-security",
     "express": "^4.19.2",
